@@ -1,4 +1,4 @@
-Portefolio 2 LEO1 - Group 24 - Vandmelon
+Portfolio 2 LEO1 - Group 24 - Vandmelon
 
 The project has been executed as described in the instructions
 
