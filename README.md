@@ -2,7 +2,7 @@ Portefolio 2 LEO1 - Group 24 - Vandmelon
 
 The project has been executed as described in the instructions
 
-Two containers has been created, one for serving a server to the outside and another to serve a randomness script to the first container.
+Two containers has been created, one for serving a server to the outside and another to serve a randomness script to the first container. The containers are created with command `lxc-create -n C1 -t download -- -d alpine -r 3.4 -a armhf`
 
 The second container has an executable script `rng.sh` in `/bin/rng.sh`. The program ´socat´ is used to serve the script on tcp port 8080. The command is `socat tcp-listen:8080,fork,reuseaddr exec:/bin/rng.sh`
 
